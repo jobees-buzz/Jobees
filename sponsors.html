@@ -24,3 +24,11 @@
         <li><a href="about.html">about</a></li>
       </ul>
     </nav>
+     <script>
+  const menuToggle = document.querySelector(".menu-toggle");
+  const navLinks = document.querySelector(".nav-links");
+
+  menuToggle.addEventListener("click", () => {
+    navLinks.classList.toggle("show");
+  });
+</script>
