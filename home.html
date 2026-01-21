@@ -6,49 +6,38 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
 </head>
-<header class="header">
-      <nav class="navbar">
-      <div class="menu-toggle" id="menu-toggle">☰</div>
-      <ul class="nav-links" id="nav-links">
-        <li><a href="home.html">home</a></li>
-        <li><a href="first.html">FIRST robotics</a></li>
-        <li><a href="events.html">events</a></li>
-        <li><a href="sponsors.html">sponsors</a></li>
-        <li><a href="about.html">about</a></li>
-        <li><a href="resources.html">Resources</a></li>
-        <li><a href="reference.html">reference page</a></li>
-      </ul>
-    </nav>
-    <body>
-      <section class="thing">
-  <div class="container">
-    <p class="kicker">TEAM #### / JOBEES</p>
-
-    <p class="section-label">MISSION STATEMENT</p>
-    <p class="body">
-We are a robotics team based in Florida.
-  Our mission is to inspire and educate young minds in the field of robotics through hands-on experience and teamwork. We work year round to give back to the community and promote STEM education. Join us on our journey to innovate and create!
-    </p>
+<body>
+  <site-header></site-header>
+  <section class="home-section">
+    <div class="container">
+      <p class="kicker">TEAM #### / JOBEES</p>
+      <p class="section-label">MISSION STATEMENT</p>
+      <p class="body">
+  We are a robotics team based in Florida.
+    Our mission is to inspire and educate young minds in the field of robotics through hands-on experience and teamwork. We work year round to give back to the community and promote STEM education. Join us on our journey to innovate and create!
+      </p>
+    </div>
+  </section>
+      <h1 style="text-align: center;">
+    Highlights
+  </h1>
+  <div class="highlights" >
+    <div class="highlight-card">
+      <img src="images/install.JPG" alt="Robot Image" class="highlight-img">
+      <h3>Installation of Officers</h3>
+      <p>Check out our latest event!</p>
+      <a href="events.html">See more →</a>
+    </div>
   </div>
-</section>
-    <h1 style="text-align: center;">
-  Highlights
- </h1>
- <div class="highlights" >
-  <div class="highlight-card">
-    <img src="images/install.JPG" alt="Robot Image" class="highlight-img">
-    <h3>Installation of Officers</h3>
-    <p>Check out our latest event!</p>
-    <a href="events.html">See more →</a>
-   </body>
+<site-footer></site-footer>
 
-  </div>
+  <script src="header.js"></script>
   <script>
   const menuToggle = document.querySelector(".menu-toggle");
   const navLinks = document.querySelector(".nav-links");
@@ -57,26 +46,5 @@ We are a robotics team based in Florida.
     navLinks.classList.toggle("show");
   });
 </script>
-<footer>
-  <div class="footer-sections">
-    <div class="footer-section">
-      <h4>Quick Links</h4>
-      <ul>
-        <li><a href="home.html">Home</a></li>
-        <li><a href="first.html">FIRST Robotics</a></li>
-        <li><a href="events.html">Events</a></li>
-        <li><a href="sponsors.html">Sponsors</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="resources.html">Resources</a></li>
-        <li><a href="reference.html">Reference Page</a></li>
-
-      </ul>
-    </div>
-    <div class="footer-section">
-      <h4>Contact Us</h4>
-      <p>Email: jobeesrobotics@gmail.com</p>
-      <p>Phone: (123) 456-7890</p>
-    </div>
-  </div>
-  <p>© 2026 Jobees Robotics Team</p>
-</footer>
+<script src="footer.js"></script>
+</body>
