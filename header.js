@@ -7,11 +7,12 @@ class SiteHeader extends HTMLElement {
     <div class="menu-toggle" id="menu-toggle">☰</div>
 
     <div class="nav-left">
+    <nav class="navbar">
       <a href="home.html">
-        <img src="images/smal.png" alt="Jobees Robotics Logo" class="logo">
+        <img src="images/tiny.png" alt="Jobees Robotics Logo" class="logo">
       </a>
-      <h2 class="site-title">Jobees Robotics</h2>
     </div>
+    <h2 class="site-title" style="margin: 10px;">Jobees Robotics</h2>
 
     <ul class="nav-links" id="nav-links">
       <li><a href="home.html">Home</a></li>
