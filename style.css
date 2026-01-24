@@ -200,7 +200,6 @@ a:hover {
 
 .project-card p {
   display: -webkit-box;
-  -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
@@ -260,52 +259,6 @@ a:hover {
   margin-right: auto;
   padding-top: 0px;
   padding: 60px 40px;
-}
-.highlight-card {
-  background: #ffd971;
-  border-radius: 14px;
-  padding: 20px;
-  border: 4px solid #fad05d;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
-  gap: 24px;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-}
-.highlight-card p {
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-}
-
-.highlight-card a {
-  margin-top: auto;
-}
-
-
-.highlight-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 14px 28px rgba(0,0,0,0.2);
-  outline: 3px solid #ffc729;
-}
-
-.highlight-card img {
-  object-fit: cover;
-  border-radius: 12px;
-  flex-shrink: 0;
-}
-
-.highlight-card h3 {
-  margin: 8px 0 6px;
-  color: #e1a80a;
-  font-size: 1.4rem;
-}
-
-
-.highlight-card a:hover {
-  text-decoration: underline;
 }
 
 .container {
