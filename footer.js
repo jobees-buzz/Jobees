@@ -6,7 +6,7 @@ class SiteFooter extends HTMLElement {
     <div class="footer-section">
       <h4>Quick Links</h4>
       <ul>
-        <li><a href="home.html">Home</a></li>
+        <li><a href="index.html">Home</a></li>
         <li><a href="first.html">FIRST Robotics</a></li>
         <li><a href="events.html">Events</a></li>
         <li><a href="sponsors.html">Sponsors</a></li>
